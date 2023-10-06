@@ -18,9 +18,13 @@ if __name__ == "__main__":
 
     num_1 = int(input("Ingresa el primer número entero: "))
     num_2 = int(input("Ingresa el segundo número entero: "))
+    
+    suma = calculadora.suma(num_1, num_2)
+    resta = calculadora.resta(num_1, num_2)
+    multiplicacion = calculadora.multiplicacion(num_1, num_2)
+    division = calculadora.division(num_1, num_2)
 
-    print("Suma:", calculadora.suma(num_1, num_2))
-    print("Resta:", calculadora.resta(num_1, num_2))
-    print("Multiplicación:", calculadora.multiplicacion(num_1, num_2))
-    print("División:", calculadora.division(num_1, num_2))
-
+    print("Suma:", suma)
+    print("Resta:", resta)
+    print("Multiplicación:", multiplicacion)
+    print("División:", division)
